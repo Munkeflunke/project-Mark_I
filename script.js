@@ -1,4 +1,5 @@
 // Globale variabler og værdier
+console.log("so it begins");
 // Sætter en global RNG1 (Random Number Generator 1) til en tilfældig værdi mellem 1 og 20
 let RNG1 = Math.floor(Math.random() * 20) + 1;
 // Sætter en score med startværdi 0
@@ -48,7 +49,8 @@ const wrongAudio = document.querySelector('.wrongAudio');
 
 // Vælger lydelementet for korrekte gæt på class
 const correctAudio = document.querySelector('.correctAudio');
-
+//lyd fra
+console.log("lyd fra https://mixkit.co/free-sound-effects/correct/")
 // Vælger lydelementet for næsten korrekte gæt på class
 const closeAudio = document.querySelector('.closeAudio');
 
