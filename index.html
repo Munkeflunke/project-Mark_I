@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Guess My Number!</title>
 </head>
@@ -12,9 +11,7 @@
 <header>
     <h1>Guess My Number!</h1>
     <p class="between">(Between 1 and 20)</p>
-    <a href="https://munkeflunke.github.io/project-Mark_I/">
-        <button class="btn again">Again!</button>
-    </a>
+    <button class="btn again">Again!</button>
 
     <div class="number">?</div>
 </header>
@@ -22,12 +19,26 @@
     <section class="left">
         <input type="number" class="guess" />
         <button class="btn check">Check!</button>
+        <audio class="wrongAudio" src="wrongAudio.wav" ></audio>
+        <audio class="correctAudio" src="correctAudio.wav" ></audio>
+        <audio class="closeAudio" src="closeAudio.wav"></audio>
+        <span class="latestTries">Latest Tries</span>
+        <ul class="historyList"><strong></strong>
+
+        </ul>
+
     </section>
     <section class="right">
         <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">0</span></p>
+        <p class="label-score">💯 Tries: <span class="score">0</span></p>
         <p class="label-highscore">
-            🥇  Highscore: <span class="highscore">0</span>
+            🥇  Fewest tries: <span class="highscore">0</span>
+        </p>
+        <p class="timer">
+            ⏱ Current time: </class>
+        </p>
+        <p class="recordTimer">
+            ⏱ Fastest time:
         </p>
     </section>
 </main>

@@ -117,3 +117,17 @@ h1 {
 .label-score {
     margin-bottom: 2rem;
 }
+.timer{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.historyList{
+    margin-top: 2rem;
+    list-style-type: decimal;
+}
+.correctHistory{
+    margin-top: 2rem;
+}
+.latestTries{
+    margin-top:2rem;
+}
