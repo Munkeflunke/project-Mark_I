@@ -230,6 +230,7 @@ const closeGuess = function() {
     const userGuessValue = userGuess.value;
     // Viser besked om, at gættet er tæt på
     message.textContent = "The number " + userGuessValue + " is close but not correct";
+    rngNumber.textContent = userGuessValue;
     // Øger scoren med 1
     elementScore = elementScore + 1;
     // Ændrer baggrundsfarven til gul
